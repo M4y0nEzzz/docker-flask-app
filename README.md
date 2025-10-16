@@ -1,7 +1,7 @@
 # Короткий отчет по лабораторной работе №2.
 
 ## 1) Вывод команды  docker history michaelkon/image-lab:b8faaba6 :
-### IMAGE          CREATED          CREATED BY                                      SIZE      COMMENT
+| IMAGE         | CREATED         | CREATED BY                                     | SIZE     | COMMENT |
 ### 185938a5bd39   34 minutes ago   LABEL org.lab.login=michaelkon org.lab.token…   0B        buildkit.dockerfile.v0
 ### <missing>      34 minutes ago   CMD ["python" "app/app.py"]                     0B        buildkit.dockerfile.v0
 ### <missing>      34 minutes ago   VOLUME [/tmp]                                   0B        buildkit.dockerfile.v0
