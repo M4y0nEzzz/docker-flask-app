@@ -4,7 +4,7 @@
 |    IMAGE     |    CREATED     | CREATED BY                                    | SIZE       | COMMENT                | 
 |--------------|----------------|-----------------------------------------------|------------|------------------------|
 | 185938a5bd39 | 34 minutes ago | LABEL org.lab.login=michaelkon org.lab.token… | 0B         | buildkit.dockerfile.v0 |
-| <missing>    | 34 minutes ago | CMD ["python" "app/app.py"]                   | 0B         | buildkit.dockerfile.v0 |
+| missing    | 34 minutes ago | CMD ["python" "app/app.py"]                   | 0B         | buildkit.dockerfile.v0 |
 | <missing>    | 34 minutes ago | VOLUME [/tmp]                                 | 0B         | buildkit.dockerfile.v0 |
 | <missing>    | 34 minutes ago | HEALTHCHECK &{["CMD-SHELL" "wget --no-verbos… | 0B         | buildkit.dockerfile.v0 |
 | <missing>    | 34 minutes ago | EXPOSE &{[{{19 0} {19 0}}] 0xc002192b40}      | 0B         | buildkit.dockerfile.v0 |
