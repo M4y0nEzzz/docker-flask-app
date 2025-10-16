@@ -1,15 +1,15 @@
 # Короткий отчет по лабораторной работе №2.
 
 # 1) Вывод команды  docker history michaelkon/image-lab:b8faaba6 :
-# IMAGE          CREATED          CREATED BY                                      SIZE      COMMENT
-# 185938a5bd39   34 minutes ago   LABEL org.lab.login=michaelkon org.lab.token…   0B        buildkit.dockerfile.v0
-# <missing>      34 minutes ago   CMD ["python" "app/app.py"]                     0B        buildkit.dockerfile.v0
-# <missing>      34 minutes ago   VOLUME [/tmp]                                   0B        buildkit.dockerfile.v0
-# <missing>      34 minutes ago   HEALTHCHECK &{["CMD-SHELL" "wget --no-verbos…   0B        buildkit.dockerfile.v0
-# <missing>      34 minutes ago   EXPOSE &{[{{19 0} {19 0}}] 0xc002192b40}        0B        buildkit.dockerfile.v0
-# <missing>      34 minutes ago   ENV ROCKET_SIZE=Big                             0B        buildkit.dockerfile.v0
-# <missing>      34 minutes ago   USER flaskuser                                  0B        buildkit.dockerfile.v0
-# <missing>      34 minutes ago   RUN /bin/sh -c adduser -D flaskuser && chown…   53.2kB    buildkit.dockerfile.v0
+** IMAGE          CREATED          CREATED BY                                      SIZE      COMMENT **
+** 185938a5bd39   34 minutes ago   LABEL org.lab.login=michaelkon org.lab.token…   0B        buildkit.dockerfile.v0 **
+** <missing>      34 minutes ago   CMD ["python" "app/app.py"]                     0B        buildkit.dockerfile.v0 **
+** <missing>      34 minutes ago   VOLUME [/tmp]                                   0B        buildkit.dockerfile.v0
+** <missing>      34 minutes ago   HEALTHCHECK &{["CMD-SHELL" "wget --no-verbos…   0B        buildkit.dockerfile.v0
+** <missing>      34 minutes ago   EXPOSE &{[{{19 0} {19 0}}] 0xc002192b40}        0B        buildkit.dockerfile.v0
+** <missing>      34 minutes ago   ENV ROCKET_SIZE=Big                             0B        buildkit.dockerfile.v0
+** <missing>      34 minutes ago   USER flaskuser                                  0B        buildkit.dockerfile.v0
+** <missing>      34 minutes ago   RUN /bin/sh -c adduser -D flaskuser && chown…   53.2kB    buildkit.dockerfile.v0
 # <missing>      34 minutes ago   COPY app /app/app # buildkit                    16.4kB    buildkit.dockerfile.v0
 # <missing>      34 minutes ago   COPY /usr/local/lib/python3.11/site-packages…   13.9MB    buildkit.dockerfile.v0
 # <missing>      37 minutes ago   WORKDIR /app                                    8.19kB    buildkit.dockerfile.v0
