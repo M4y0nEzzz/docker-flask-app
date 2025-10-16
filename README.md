@@ -1,6 +1,6 @@
 # Короткий отчет по лабораторной работе №2.
 
-# 1) Вывод команды  docker history michaelkon/image-lab:b8faaba6 :
+## 1) Вывод команды  docker history michaelkon/image-lab:b8faaba6 :
 ** IMAGE          CREATED          CREATED BY                                      SIZE      COMMENT **
 ** 185938a5bd39   34 minutes ago   LABEL org.lab.login=michaelkon org.lab.token…   0B        buildkit.dockerfile.v0 **
 ** <missing>      34 minutes ago   CMD ["python" "app/app.py"]                     0B        buildkit.dockerfile.v0 **
@@ -26,10 +26,10 @@
 # <missing>      8 days ago       ADD alpine-minirootfs-3.22.2-x86_64.tar.gz /…   8.99MB    buildkit.dockerfile.v0
 
 # 2) Мой образ лучше "наивной" сборки по ряду причин:
-    # a) использование multi-stage (в образ попадают только нужные зависимости);
-    # b) сокращение размера более чем вдвое (использование python:3.11-alpine);
-    # c) запуск не под root'ом (повышение уровня безопасности);
-    # d) поддержка режима только для чтения;
-    # e) автоматическое отслеживание состояния (HEALTHCHECK);
-    # f) использование переменной окружения (ROCKET_SIZE) и, 
-       # как следствие, изменение поведения приложения без пересборки образа.
+    ## a) использование multi-stage (в образ попадают только нужные зависимости);
+    ## b) сокращение размера более чем вдвое (использование python:3.11-alpine);
+    ## c) запуск не под root'ом (повышение уровня безопасности);
+    ## d) поддержка режима только для чтения;
+    ## e) автоматическое отслеживание состояния (HEALTHCHECK);
+    ## f) использование переменной окружения (ROCKET_SIZE) и, 
+       ## как следствие, изменение поведения приложения без пересборки образа.
