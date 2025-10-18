@@ -15,6 +15,15 @@ COPY app /app/app
 RUN adduser -D flaskuserM && chown -R flaskuserM /app
 USER flaskuserM
 
+# Правильный вариант
+Docker --read-only \ 
+    --tmpfs /testDir:rw /app/testDir
+
+# Старый вариант
+RUN mkdir -p /app/testDir && \
+    chown flaskuserM:flaskuserM /app/testDir && \
+    chmod 666 /app/testDir
+    
 ENV ROCKET_SIZE=Big
 EXPOSE 8000
 
