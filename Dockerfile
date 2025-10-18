@@ -12,8 +12,8 @@ COPY --from=build /usr/local/lib/python3.11/site-packages /usr/local/lib/python3
 
 COPY app /app/app
 
-RUN adduser -D flaskuser && chown -R flaskuser /app
-USER flaskuser
+RUN adduser -D flaskuserM && chown -R flaskuserM /app
+USER flaskuserM
 
 ENV ROCKET_SIZE=Big
 EXPOSE 8000
